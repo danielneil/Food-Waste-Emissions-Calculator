@@ -1,25 +1,28 @@
 #!/usr/bin/python
 
+# Calculate the emissions from a specific amount of food waste entered as an argument on the command line.
+
 import sys, getopt
 
 def main(argv):
-   inputfile = ''
-   outputfile = ''
+   
+   foodWasteKg = 0
+
    try:
-      opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
+      opts, args = getopt.getopt(argv,"hi:",["foodWasteKg="])
+      
    except getopt.GetoptError:
-      print 'Food_Waste_Emissions_Calculator.py -i <inputfile>'
+      
+      print 'Food_Waste_Emissions_Calculator.py -i <foodWasteInKG>'
+      
       sys.exit(2)
+      
    for opt, arg in opts:
+      
       if opt == '-h':
-         print 'test.py -i <inputfile> -o <outputfile>'
+         print 'Food_Waste_Emissions_Calculator.py -i <foodWasteInKG>'
          sys.exit()
-      elif opt in ("-i", "--ifile"):
-         inputfile = arg
-      elif opt in ("-o", "--ofile"):
-         outputfile = arg
-   print 'Input file is "', inputfile
-   print 'Output file is "', outputfile
 
 if __name__ == "__main__":
+   
    main(sys.argv[1:])
