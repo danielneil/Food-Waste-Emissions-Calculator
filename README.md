@@ -16,9 +16,10 @@ git clone https://github.com/danielneil/Food-Waste-Emissions-Calculator && cd Fo
 ```
 5. Usage:
 ```
-daniel@debian:~/Food-Waste-Emissions-Calculator$ ./Food_Waste_Emissions_Calculator.py -i 10
-Food Waste (KG): 10 kg
-Released Methane: 19.0 kg
-Equivalent electricity consumption ( in days ) for one household: 1.7 days
-Equivalent 50L petrol tanks consumed: 0.2 petrol tanks
+daniel@debian:~/Food-Waste-Emissions-Calculator$ ./Food_Waste_Emissions_Calculator.py -i 50
+Food Waste (KG): 50 kg
+Released Methane: 95.0 kg
+Equivalent electricity consumption ( in days ) for one household: 8.5 days
+Equivalent 50L petrol tanks consumed: 1.0 petrol tanks
+
 ```
