@@ -8,10 +8,18 @@ def main(argv):
    
    foodWasteKg = 0
    
-   # For every kilo of food waste that ends up in land 
-   # fill, 1.9kg of methane is released into the atmosphere.
-   methaneKG = 1.9
+   # - For every kilo of food waste that ends up in land fill:
+   
+   # Amount of methane (in kg) released into the atmosphere.
+   Emissions_of_CO2_e_kg = 1.9
 
+   # Equivalent electricity consumption ( in days ) for one household
+   household_electricity_consumption_days = 0.17
+   
+   # Equivalent 50L petrol tanks consumed
+   petrol_tanks = 0.02
+   
+   # Display help.
    helpString = 'Food_Waste_Emissions_Calculator.py -i <foodWasteInKG>'
    
    try:
@@ -33,7 +41,7 @@ def main(argv):
       elif opt in ("-i", "--foodWasteKg"):
          foodWasteKg = int(arg)
    
-         methaneEmissions = foodWasteKg * methaneKG
+         methaneEmissions = foodWasteKg * CO2_e_kg
    
          print 'Food Waste (KG): ' + str(foodWasteKg) + ' kg'
          print 'Released Methane: ' + str(methaneEmissions) + ' kg'      
