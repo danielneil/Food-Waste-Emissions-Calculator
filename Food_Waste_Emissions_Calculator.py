@@ -31,9 +31,11 @@ def main(argv):
 
       elif opt in ("-i", "--foodWasteKg"):
          foodWasteKg = arg
-         
-   print 'Food Waste (KG): ' + foodWasteKg + ' kg'
-   print 'Released Methane: ' + methaneKG * foodWasteKg + ' kg'
+   
+   methaneEmissions = foodWasteKg * methaneKG
+   
+   print 'Food Waste (KG): ' + str(foodWasteKg) + ' kg'
+   print 'Released Methane: ' + str(methaneEmissions) + ' kg'
          
 if __name__ == "__main__":
    
