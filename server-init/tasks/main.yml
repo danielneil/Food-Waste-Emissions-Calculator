@@ -2,17 +2,11 @@
 # tasks file for first-role
 
 - name: Updating the server
-  yum:
+  apt:
    name: '*'
    state: latest
 
-- name: Installing fail2ban
-  yum:
-   name: fail2ban
+- name: Installing python 
+  apt:
+   name: python3
    state: latest
-
-- name: Enabling fail2ban from boot. 
-  service:
-   name: fail2ban
-   state: started
-   enabled: true
