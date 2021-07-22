@@ -6,6 +6,3 @@
   become: true
   roles:
   - server-init
-  
-- name: Run a command using a templated variable (always use quote filter to avoid injection)
-  shell: "./Food_Waste_Emissions_Calculator.py  -i 10"
