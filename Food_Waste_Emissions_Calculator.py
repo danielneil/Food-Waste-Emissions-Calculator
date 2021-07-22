@@ -41,12 +41,12 @@ def main(argv):
       elif opt in ("-i", "--foodWasteKg"):
          foodWasteKg = int(arg)
    
-         methaneEmissions = foodWaste_kg_calc * Emissions_of_CO2_e_kg
+         methaneEmissions_calc = foodWasteKg * Emissions_of_CO2_e_kg
          household_electricity_days_calc = foodWasteKg * household_electricity_consumption_days
          petrol_tanks_calc = foodWasteKg * petrol_tanks
    
          print 'Food Waste (KG): ' + str(foodWasteKg) + ' kg'
-         print 'Released Methane: ' + str(methaneEmissions) + ' kg'      
+         print 'Released Methane: ' + str(methaneEmissions_calc) + ' kg'      
          print 'Equivalent electricity consumption ( in days ) for one household: ' + str(household_electricity_days_calc) + ' days'
          print 'Equivalent 50L petrol tanks consumed: ' + str(petrol_tanks_calc) + ' days'      
       
