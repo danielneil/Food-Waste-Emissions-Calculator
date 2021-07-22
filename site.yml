@@ -1,0 +1,8 @@
+---
+- name: Build Template
+  hosts: server
+  vars:
+    timezone: "Australia/Sydney"
+  become: true
+  roles:
+  - server-init
