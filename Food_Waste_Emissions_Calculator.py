@@ -26,6 +26,9 @@ def main(argv):
          print helpString
          sys.exit()
 
+      elif opt in ("-i", "--foodWasteKg"):
+         foodWasteKg = arg
+         
    print foodWasteKg
          
 if __name__ == "__main__":
