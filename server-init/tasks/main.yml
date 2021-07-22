@@ -1,12 +1,16 @@
 ---
 # tasks file for first-role
 
-- name: Updating the server
+- name: Update all packages to the latest version
   apt:
-   name: '*'
-   state: latest
+    upgrade: dist
 
 - name: Installing python 
   apt:
    name: python3
+   state: latest
+
+- name: Install pip3
+  apt:
+   name: python3-pip
    state: latest
