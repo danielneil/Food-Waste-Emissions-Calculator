@@ -48,7 +48,7 @@ def main(argv):
          print 'Food Waste (KG): ' + str(foodWasteKg) + ' kg'
          print 'Released Methane: ' + str(methaneEmissions_calc) + ' kg'      
          print 'Equivalent electricity consumption ( in days ) for one household: ' + str(household_electricity_days_calc) + ' days'
-         print 'Equivalent 50L petrol tanks consumed: ' + str(petrol_tanks_calc) + ' days'      
+         print 'Equivalent 50L petrol tanks consumed: ' + str(petrol_tanks_calc) + ' petrol tanks'      
       
 if __name__ == "__main__":
    
