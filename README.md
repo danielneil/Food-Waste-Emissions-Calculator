@@ -2,7 +2,7 @@
 
 Calculate the emissions from a specific amount of food waste entered as an argument on the command line. 
 
-[https://github.com/danielneil/Food-Waste-Emissions-Calculator/blob/main/Food_Waste_Emissions_Calculator.py](Food_Waste_Emissions_Calculator.py)
+(https://github.com/danielneil/Food-Waste-Emissions-Calculator/blob/main/Food_Waste_Emissions_Calculator.py)[Food_Waste_Emissions_Calculator.py]
 
 # Setup (Builds the dependencies)
 
