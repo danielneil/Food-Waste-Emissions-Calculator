@@ -22,9 +22,12 @@ def main(argv):
    for opt, arg in opts:
       
       if opt == '-h':
+         
          print helpString
          sys.exit()
 
+   print foodWasteKg
+         
 if __name__ == "__main__":
    
    main(sys.argv[1:])
