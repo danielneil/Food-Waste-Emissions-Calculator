@@ -1,5 +1,6 @@
-# Linux_Build_Template
-The build template I use for most of my Linux projects. 
+# Food Waste Emissions Calculator
+
+Calculate the emissions from a specific amount of food waste entered as an argument on the command line. 
 
 # Setup
 
@@ -11,5 +12,5 @@ The build template I use for most of my Linux projects.
 
 4. Open a terminal, and run:
 ```
-git clone https://github.com/danielneil/Linux_Build_Template.git && cd Linux_Build_Template && ./build.sh
+git clone https://github.com/danielneil/Food-Waste-Emissions-Calculator && cd Food-Waste-Emissions-Calculator && ./build.sh
 ```
