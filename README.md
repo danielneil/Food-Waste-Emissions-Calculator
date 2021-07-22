@@ -2,7 +2,9 @@
 
 Calculate the emissions from a specific amount of food waste entered as an argument on the command line. 
 
-# Setup
+[https://github.com/danielneil/Food-Waste-Emissions-Calculator/blob/main/Food_Waste_Emissions_Calculator.py](Food_Waste_Emissions_Calculator.py)
+
+# Setup (Builds the dependencies)
 
 1. Prepare a vanilla Debian Server with VirtualBox ([help](https://linuxhint.com/install_debian10_virtualbox/)).
 
