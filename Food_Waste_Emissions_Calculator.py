@@ -30,13 +30,13 @@ def main(argv):
          sys.exit()
 
       elif opt in ("-i", "--foodWasteKg"):
-         foodWasteKg = arg
+         foodWasteKg = int(arg)
    
-   methaneEmissions = foodWasteKg * methaneKG
+         methaneEmissions = foodWasteKg * methaneKG
    
-   print 'Food Waste (KG): ' + str(foodWasteKg) + ' kg'
-   print 'Released Methane: ' + str(methaneEmissions) + ' kg'
-         
+         print 'Food Waste (KG): ' + str(foodWasteKg) + ' kg'
+         print 'Released Methane: ' + str(methaneEmissions) + ' kg'      
+      
 if __name__ == "__main__":
    
    main(sys.argv[1:])
