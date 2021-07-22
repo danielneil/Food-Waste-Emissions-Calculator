@@ -7,5 +7,5 @@
   roles:
   - server-init
   
-  - name: Running script smoke test
-    shell: ./Food_Waste_Emissions_Calculator.py  -i 10
+- name: Running script smoke test
+  shell: ./Food_Waste_Emissions_Calculator.py  -i 10
