@@ -20,10 +20,10 @@ def main(argv):
    petrol_tanks = 0.02
    
    # Display help.
-   helpString = 'Food_Waste_Emissions_Calculator.py -i <foodWasteInKG>'
+   helpString = 'Food_Waste_Emissions_Calculator.py -i <Emissions_of_CO2_e_kg>'
    
    try:
-      opts, args = getopt.getopt(argv,"hi:",["foodWasteKg="])
+      opts, args = getopt.getopt(argv,"hi:",["Emissions_of_CO2_e_kg="])
       
    except getopt.GetoptError:
       
@@ -41,7 +41,7 @@ def main(argv):
       elif opt in ("-i", "--foodWasteKg"):
          foodWasteKg = int(arg)
    
-         methaneEmissions = foodWasteKg * CO2_e_kg
+         methaneEmissions = foodWasteKg * Emissions_of_CO2_e_kg
    
          print 'Food Waste (KG): ' + str(foodWasteKg) + ' kg'
          print 'Released Methane: ' + str(methaneEmissions) + ' kg'      
