@@ -33,7 +33,7 @@ def main(argv):
          foodWasteKg = arg
          
    print 'Food Waste (KG): ' + foodWasteKg + ' kg'
-   print 'Released Methane: ' + methaneKG * foodWasteKg ' kg'
+   print 'Released Methane: ' + methaneKG * foodWasteKg + ' kg'
          
 if __name__ == "__main__":
    
