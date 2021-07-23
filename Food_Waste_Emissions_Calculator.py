@@ -23,7 +23,7 @@ def main(argv):
    helpString = 'Food_Waste_Emissions_Calculator.py -i <foodWasteKg>'
    
    try:
-      opts, args = getopt.getopt(argv,"hi:",["Emissions_of_CO2_e_kg="])
+      opts, args = getopt.getopt(argv,"hi:",["foodWasteKg="])
       
    except getopt.GetoptError:
       
