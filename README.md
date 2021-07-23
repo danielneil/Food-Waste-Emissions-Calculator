@@ -23,4 +23,5 @@ Food Waste (KG): 50 kg
 Released Methane: 95.0 kg
 Equivalent electricity consumption ( in days ) for one household: 8.5 days
 Equivalent 50L petrol tanks consumed: 1.0 petrol tanks
+
 ```
