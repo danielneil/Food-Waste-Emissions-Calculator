@@ -20,7 +20,7 @@ def main(argv):
    petrol_tanks = 0.02
    
    # Display help.
-   helpString = 'Food_Waste_Emissions_Calculator.py -i <Emissions_of_CO2_e_kg>'
+   helpString = 'Food_Waste_Emissions_Calculator.py -i <foodWasteKg>'
    
    try:
       opts, args = getopt.getopt(argv,"hi:",["Emissions_of_CO2_e_kg="])
