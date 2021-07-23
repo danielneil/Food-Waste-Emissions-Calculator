@@ -9,6 +9,7 @@ def main(argv):
    foodWasteKg = 0
    
    # For every kilo of food waste that ends up in land fill the follow constants are applicable. 
+   # Source: https://watchmywaste.com.au/food-waste-greenhouse-gas-calculator/
    
    # Amount of methane (in kg) released into the atmosphere.
    Emissions_of_CO2_e_kg = 1.9
